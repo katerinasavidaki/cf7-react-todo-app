@@ -70,7 +70,7 @@ const Todo = () => {
 
     return(
         <>
-            <div className="mx-auto max-w-sm p-6 shadow-2xl mt-4">
+            <div className="mx-auto max-w-sm p-6 shadow-2xl mt-6">
                 <h1 className="text-center text-2xl mb-4">To-Do List</h1>
                 <TodoForm dispatch={dispatch}/>
                 <TodoList todos={todos} dispatch={dispatch}/>
